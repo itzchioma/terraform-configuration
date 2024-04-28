@@ -1,5 +1,7 @@
 ### End-to-End CI/CD Pipeline Implementation
 
+![devops-diagram.png](https://github.com/itzchioma/terraform-configuration/blob/main/assets/devops-diagram.png)
+
 ### Introduction
 
 + Continuous integration and Continuous delivery (CI/CD) are crucial in software development modernization which helps to facilitate automated code integration and reliable application delivery.
