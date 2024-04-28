@@ -25,8 +25,11 @@
 + AWS Account (launch an Ec2 instance)
 
 ### Setting Up Jenkins
+### Install Java:
 
-+ Install Java: 
+#### Before you can run Jenkins, it’s essential to have Java installed on the server. Jenkins is compatible with both OpenJDK and Oracle Java, though it generally performs best with OpenJDK. 
+
+#### Here’s how to install Java on the instance you’ve SSHed into:
 
 <!-- Updating the ubuntu server (Prepping the server for configuration) -->
 
