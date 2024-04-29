@@ -23,8 +23,14 @@
 ### Prerequisite
 + GitHUb Account
 + AWS Account (launch an Ec2 instance)
+![Launch-ec2-instances.png](https://github.com/itzchioma/terraform-configuration/blob/main/assets/Launch-ec2-instances.png)
 
 ### Setting Up Jenkins
+
+![Jenkins-startup-UI.png](https://github.com/itzchioma/terraform-configuration/blob/main/assets/Jenkins-startup-UI.png)
+![Jenkins-getting-started.png](https://github.com/itzchioma/terraform-configuration/blob/main/assets/Jenkins-getting-started.png)
+![Jenkins-customize-UI.png](https://github.com/itzchioma/terraform-configuration/blob/main/assets/Jenkins-customize-UI.png)
+
 ### Install Java:
 
 #### Before you can run Jenkins, it’s essential to have Java installed on the server. Jenkins is compatible with both OpenJDK and Oracle Java, though it generally performs best with OpenJDK. 
@@ -84,8 +90,12 @@ chmod +x install_jenkins.sh
 Jenkins runs on port 8080 by default.
 
 + Accessing Jenkins UI: http://ip-address:8080
+![Jenkins-startup-UI.png](https://github.com/itzchioma/terraform-configuration/blob/main/assets/Jenkins-startup-UI.png)
+![Jenkins-getting-started.png](https://github.com/itzchioma/terraform-configuration/blob/main/assets/Jenkins-getting-started.png)
+![Jenkins-customize-UI.png](https://github.com/itzchioma/terraform-configuration/blob/main/assets/Jenkins-customize-UI.png)
 
 + Unlock Jenkins by using the initial admin password found at: 
+![Getting-started-board.png](https://github.com/itzchioma/terraform-configuration/blob/main/assets/Getting-started-board.png)
 
 ```bash
 sudo cat /var/lib/jenkins/secrets/initialAdminPassword
